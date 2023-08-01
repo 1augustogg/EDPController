@@ -8,14 +8,12 @@ Como rodar o projeto?
 * Instale as dependências.
 * Rode as migrações.
 
-'''
-git clone https://github.com/1augustogg/EDPController.git
-cd estoque
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python contrib/env_gen.py
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-'''
+- git clone https://github.com/1augustogg/EDPController.git
+- cd estoque
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- python contrib/env_gen.py
+- python manage.py migrate
+- python manage.py createsuperuser
+- python manage.py runserver
